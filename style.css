@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: center;
+    display: inline-block;
+
+
+}
+.header{
+    width: 1440px;
+    padding:  0px 100px;
+
+}
+.navbar{
+    display: flex;
+    width: 1240px;
+    justify-content: space-between;
+    margin-top: 50px;
+    height: 68px;
+
+}
+.logo{
+    display: flex;
+    width: 219.537px;
+    height: 68px;
+    justify-content: center;
+    align-items: center;
+    gap: 12.92px;
+}
+.nav{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.nav li{
+    list-style: none;
+    font-family: Space Grotesk;
+}
+.nav li a{
+    text-decoration: none;
+    font-family: Space Grotesk;
+    color: #000;
+}
+.button{
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    font-family: Space Grotesk;
+
+}
+
+
